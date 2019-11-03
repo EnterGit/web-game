@@ -1,4 +1,4 @@
-/*
+ /*
  * HexGL
  * @author Thibaut 'BKcore' Despoulain <http://bkcore.com>
  * @license This work is licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.
@@ -83,33 +83,6 @@ bkcore.hexgl.tracks.Cityscape = {
 					'hud.bg'							: "textures/hud/hud-bg.png",
 					'hud.speed'							: "textures/hud/hud-fg-speed.png",
 					'hud.shield'						: "textures/hud/hud-fg-shield.png"
-				},
-				sounds: {
-					bg: {
-						src: 'audio/bg.ogg',
-						loop: true,
-						usePanner: false
-					},
-					crash: {
-						src: 'audio/crash.ogg',
-						loop: false,
-						usePanner: true
-					},
-					destroyed: {
-						src: 'audio/destroyed.ogg',
-						loop: false,
-						usePanner: false
-					},
-					boost: {
-						src: 'audio/boost.ogg',
-						loop: false,
-						usePanner: true
-					},
-					wind: {
-						src: 'audio/wind.ogg',
-						loop: true,
-						usePanner: true
-					}
 				}
 			});
 		}
@@ -167,28 +140,6 @@ bkcore.hexgl.tracks.Cityscape = {
 					'hud.bg'							: "textures.full/hud/hud-bg.png",
 					'hud.speed'							: "textures.full/hud/hud-fg-speed.png",
 					'hud.shield'						: "textures.full/hud/hud-fg-shield.png"
-				},
-				sounds: {
-					bg: {
-						src: 'audio/bg.ogg',
-						loop: true
-					},
-					crash: {
-						src: 'audio/crash.ogg',
-						loop: false
-					},
-					destroyed: {
-						src: 'audio/destroyed.ogg',
-						loop: false
-					},
-					boost: {
-						src: 'audio/boost.ogg',
-						loop: false
-					},
-					wind: {
-						src: 'audio/wind.ogg',
-						loop: true
-					}
 				}
 			});
 		}
